@@ -11,8 +11,10 @@ Welcome to the **ToDo App** repository! This is a simple yet powerful web-based 
 - **Filters:** View all tasks, only pending tasks, or only completed tasks.
 - **Keyboard Shortcuts:** Press `Enter` to add tasks directly from the input field.
 
-## Demo Video
+##Click Here to View
 
+## Demo Video
+https://htmlpreview.github.io/?https://github.com/way2masoom/TodoApp/blob/main/index.html
 Check out the demo video to see the app in action:
 
 ![ToDo App Demo](screenshots/ToDo-App.mp4)
