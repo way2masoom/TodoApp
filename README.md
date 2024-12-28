@@ -15,7 +15,7 @@ Welcome to the **ToDo App** repository! This is a simple yet powerful web-based 
 
 Check out the demo video to see the app in action:
 
-![ToDo App Demo](screenshots/ToDo-App.png)
+![ToDo App Demo](screenshots/ToDo-App.mp4)
 
 > Click on the image above to watch the video demonstration.
 
