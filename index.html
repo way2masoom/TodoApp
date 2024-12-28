@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ToDo App</title>
+        <!-- linking Style sheet  -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Todo Application</h1>
+
+            <input type="text" id="todoInput"
+                placeholder="Write your next todo Here">
+            <button id="addTodo">Add Todo</button>
+
+            <!-- making a filters buttons  -->
+            <div>
+                <button class="filterBtn" data-filter="all">All</button>
+                <button class="filterBtn"
+                    data-filter="completed">Completed</button>
+                <button class="filterBtn" data-filter="pending">Pending</button>
+            </div>
+
+            <!-- Todo List  -->
+            <ul id="todoList"></ul>
+        </div>
+
+        <!-- linking the js file  -->
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+/* Defining color  */
+:root {
+    --body-background: #0e0e0f;
+    --btn-primary: #5cabff;
+    --btn-secondary: #fffc37;
+    --btn-active: #4a90e2;
+    --btn-edit: #ffd700;
+    --btn-complete: #32cd32;
+    --btn-delete: #ff6347;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-background);
+}
+
+/* main container  */
+.container {
+    background-color: #ffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* TodoInput */
+#todoInput {
+    width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Buttons  */
+#addTodo {
+    background-color: var(--btn-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+/* btn after hovering  */
+#addTodo:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Styling the todoList items  */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid#ddd;
+}
+
+li:hover {
+    background-color: antiquewhite;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+
+/* Filter Buttons  */
+.filterBtn,
+.editBtn,
+.deleteBtn,
+.completedBtn {
+    margin: 8px;
+    padding: 10px 15px;
+    background-color: var(--btn-secondary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Designing filters BTN  */
+.editBtn {
+    background-color: var(--btn-edit);
+    transition: background-color 0.3s;
+}
+
+.editBtn:hover {
+    background-color: #8957f9;
+}
+
+.deleteBtn {
+    background-color: var(--btn-delete);
+    transition: background-color 0.3s;
+}
+
+.deleteBtn:hover {
+    background-color: var(--btn-active);
+}
+
+.completedBtn {
+    background-color: var(--btn-complete);
+    transition: background-color 0.3s;
+}
+
+.completedBtn:hover {
+    background-color: var(--btn-active);
+}
+
+.filterBtn:hover {
+    background-color: var(--btn-active);
+}
+
+.todoItem {
+    letter-spacing: 1px;
+}
+
+/* Wrapper Buttons */
+.todoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
